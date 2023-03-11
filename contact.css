@@ -1,0 +1,46 @@
+.contactTitle{
+    color:#ff7978;
+    font-family: "Britannic";
+    padding: 0;
+    margin:0;
+    font-size: 50px;
+  }
+  
+  .contactForm {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    border: solid 2px #ff7978;
+    margin: 20px 200px;
+    text-align: center;
+  }
+  
+  input[type=text], select, textarea, input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  input.contactBtn[type=submit] {
+    background-color:#ffbac5;
+    color: white;
+    border: solid 2px #ffbac5;
+    padding: 12px 20px;
+    margin: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: x-large;
+    font-family: "Britannic";
+  }
+  
+  input.contactBtn[type=submit]:hover {
+    background-color:white;
+    color: #ffbac5;
+    border: solid 2px #ffbac5;
+  }
+  

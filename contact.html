@@ -3,6 +3,7 @@
     <head>
         <title>Contact Us</title>
         <link rel="stylesheet" src="text/css" href="index.css">
+        <link rel="stylesheet" src="text/css" href="contact.css">
     </head> 
 
     <body>
@@ -11,7 +12,6 @@
         </header>
 
         <nav>
-            <!--a class="logo">KitcheNet</a-->
             <ul class="navBar">
                 <ul class="logo">
                     <li class="logo">KitcheNet</li>
@@ -30,6 +30,16 @@
             <p id="b">Kitchen</p> 
             <p id="a">of</p>
             <p id="b">Internet!</p> 
+        </div>
+        <!--Everything above is just the header and navigation bar. Everything below is the actual contenct page-->
+        <div class="contactForm">
+            <h2 class="contactTitle">Contact Us!</h2>
+            <form action="mailto:kitchenet@gmail.com" method="get" enctype="text/plain">
+                <input type="text" id="fname" name="fulltname" placeholder="Your full name.."><br>
+                <input type="email" id="email" name="email" placeholder="Email Adress.."><br>
+                <textarea id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
+                <br><input class="contactBtn" type="submit" value="Send">
+            </form>
         </div>
     </body>
 </html>
