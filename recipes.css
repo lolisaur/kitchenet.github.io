@@ -1,0 +1,40 @@
+.eachRecipe {
+    width: 65%;
+    float: left;
+    margin: 30px 18%;
+}
+
+.actImage {
+    height: 270px;
+    border: solid 3px #ff7978;
+    float: left;
+}
+
+.recipeContent{
+    float: left;
+    color: #ff7978;
+    padding-left: 40px;
+    width: 60%;
+    height: auto;
+}
+
+.recipeHeader{
+    padding-left: 20px;
+    font-family: 'Britannic';
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+.recipeDesc{
+    float:left;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 90%;
+    height: 190px;
+    border: solid 1px #ff7978;
+    color: grey;
+}
+
+
