@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.content{
+    width: 30%;
+    margin-top: 3px;
+    float: left;
+    padding-left: 5%;
+}
+
+.actImage{
+    width: 58%;
+    float:right;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+h1.contentH1{
+    font-size:400%;
+    font-family: 'Shogeking Oniki';
+    color: #ff7978;
+}
+
+.desc{
+    border: solid 2px grey;
+    color: grey;
+    font-family: 'Britannic';
+    height: 300px;
+    padding-left: 30px;
+    font-size: 130%;
+}

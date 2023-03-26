@@ -11,8 +11,9 @@
     background-color: white;
     padding: 10px 20px;
     border: solid 2px #ff7978;
-    margin: 20px 200px;
+    margin: 20px 200px 65px 200px;
     text-align: center;
+
   }
   
   input[type=text], select, textarea, input[type=email]{

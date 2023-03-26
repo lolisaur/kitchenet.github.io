@@ -37,8 +37,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Britannic';
-  font-size: 60px;
-  
+  font-size: 60px;  
 }
 
 a.active{
@@ -77,6 +76,60 @@ p#b{
   margin: 0; 
   display: inline;
   color:#ff7978;
+}
+
+.footer{
+  background-color: #ffbac5;
+  float:left;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding: 0;
+
+}
+
+.logoFooter{
+  float: left;
+  padding-left: 25px;
+  padding-top: 40px;
+  margin: 0;
+  color: white;
+  font-size: 60px;
+  font-family: 'Shogeking Oniki';
+}
+
+.footerContent{
+  float: left;
+  padding: 17px 50px 0px 100px;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  font-family: 'Shogeking Oniki';
+}
+
+
+
+.eachImgFooter, .firstImgFooter{
+  color:#ff7978;
+  float:left;
+  width: 65px;
+
+}
+
+.firstImgFooter{
+  padding-left: 60px;
+}
+
+.eachImgFooter{
+  padding-left: 6px;
+}
+
+.footerRight{
+  float:right;
+  margin: 0;
+  padding: 50px 100px;
+  font-size: 32px;
+  font-family: 'Shogeking Oniki';
 }
 
 

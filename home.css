@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.content{
+    width: 70%;
+    text-align: center;
+    float: center;
+    margin: 15px 15%;
+    padding: 5px;
+}
+
+/*
+.actImage {
+    width: 25%;
+    border: solid 3px #ff7978;
+    float: left;
+    margin-left: 5.5%;
+}
+
+.buttonsCollection {
+    margin-left: 200x;
+    
+}*/
+
+
+.items {
+    position: relative;
+    width: 30%;
+    float:left;
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
+  
+.items img {
+    width: 90%;
+    height: auto;
+}
+  
+.items .buttons  {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-60%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffbac5;
+    font-family: "Britannic";
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 12px 24px;
+    text-align: center;
+}
+
+.ractangle{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 35%;
+    padding: 20px 20px;
+    transform: translate(-60%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    border: solid 2px #ffbac5;
+}
+
+
+
+
+
