@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.title{
+    width: 100%;
+    padding-left: 10%;
+}
+
+.upperIMG{
+    width: 100%;
+}
+
+.bodyUpper, .bodyMid, .lowerIMG{
+    width: 60%;
+    float:left;
+    padding-left: 10%;;
+    margin-bottom: 40px;
+}
+
+.upperSide, .bodyLower, .midIMG {
+    margin: 20px 0 40px 10px;
+    width: 25%;
+    float:left;
+}
+
+.desc{
+    width: 80%;
+}
+
+h1, h2{
+    color: #ff7978;
+}
+
+h1{
+    font-size:300%;
+    font-family: 'Shogeking Oniki';
+}
+
+h2{
+    font-size:200%;
+    font-family: 'Britannic';
+}
+
+h4 ,td{
+    font-family: 'Roboto';
+    color: gray;
+}
+
+td {
+    padding: 6px 2px;
+}
+
+
+
+

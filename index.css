@@ -10,7 +10,7 @@ p.headerUpper{
     font-size:x-small;
 }
 
-ul.navBar {
+.navBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,46 +18,50 @@ ul.navBar {
   background-color: #ffbac5;
 }
 
-ul.navBarActual{
+.navBarActual{
   padding: 0;
-  margin: 0;
+  margin-right: 30px;
   float: right;
 }
+
 
 li {
   display: inline;
   float: left;
+  padding-left: 30px;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  margin-top: 65px;
-  padding: 14px 16px;
+  margin-top: 75px;
+  padding: 14px 0;
   text-decoration: none;
-  font-family: 'Britannic';
-  font-size: 60px;  
+  font-family: 'Britannic'; 
+  font-size: 250%; 
 }
 
 a.active{
     text-decoration: underline;
     text-decoration-color: #ff7978;
     text-decoration-thickness: 6px; 
+
 }
 
-ul.logo{
+li.logo{
     float: left;
-    padding-left: 25px;
+    padding-left: 10px;
     margin: 0;
     color: white;
-    font-size: 110px;
+    font-size: 650%;
     font-family: 'Shogeking Oniki';
 }
 
 
 div.headerLow {
   margin: 0;
+  margin-bottom: 20px;
   padding: 3px 3px;
   background-color: #ffbac5;
   border-top: solid 2px white;
